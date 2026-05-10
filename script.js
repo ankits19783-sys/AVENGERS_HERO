@@ -7,9 +7,11 @@ let thor = document.getElementById("thor");
 let captainamerica = document.getElementById("captainamerica");
 let hulk = document.getElementById("hulk");
 
-
 input.addEventListener("keydown" , (a) => {
+   
     if(a.key === "Enter") {
+         let hero = input.value.toLowerCase();
+        navigator.vibrate(500);
         sound.currentTime = 0;
         sound.play()
          ironman.style.display = "none";
@@ -17,25 +19,28 @@ input.addEventListener("keydown" , (a) => {
         captainamerica.style.display = "none";
         hulk.style.display = "none";
         thor.style.display = "none";
-        if(input.value == "ironman"){
+
+        if(hero === "ironman"){
             ironman.style.display = "block";
            
-        }else if(input.value == "spiderman") {
+        }else if(hero === "spiderman") {
             spiderman.style.display = "block";
           
-        }else if(input.value == "captainamerica"){
+        }else if(hero === "captainamerica"){
             captainamerica.style.display = "block";
            
-        }else if(input.value == "hulk") {
+        }else if(hero === "hulk") {
             hulk.style.display = "block";
            
-        }else if(input.value == "thor") {
+
+        }else if(hero === "thor") {
             thor.style.display = "block"
-            
+
         }
     }
 })
 button.addEventListener("click" , () => {
+     navigator.vibrate(500);
     sound.currentTime = 0;
     sound.play()
     ironman.style.display = "none";
@@ -43,20 +48,22 @@ button.addEventListener("click" , () => {
         captainamerica.style.display = "none";
         hulk.style.display = "none";
         thor.style.display = "none";
-        if(input.value == "ironman"){
+         if(hero === "ironman"){
             ironman.style.display = "block";
            
-        }else if(input.value == "spiderman") {
+        }else if(hero === "spiderman") {
             spiderman.style.display = "block";
           
-        }else if(input.value == "captainamerica"){
+        }else if(hero === "captainamerica"){
             captainamerica.style.display = "block";
            
-        }else if(input.value == "hulk") {
+        }else if(hero === "hulk") {
             hulk.style.display = "block";
            
-        }else if(input.value == "thor") {
+
+        }else if(hero === "thor") {
             thor.style.display = "block"
-            
+
         }
+
 })
