@@ -1,0 +1,36 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+#ironman {
+    display: none;
+}
+#spiderman {
+    display: none;
+}
+#input {
+    height: 24px;
+    width: 210px;
+    padding-left: 10px;
+}
+#img_show {
+    height: 30px;
+    width: 50px;
+    border-radius: 3px;
+}
+body {
+    background-color: #fdb2b2;
+} 
