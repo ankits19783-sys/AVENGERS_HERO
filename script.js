@@ -19,26 +19,19 @@ input.addEventListener("keydown" , (a) => {
         captainamerica.style.display = "none";
         hulk.style.display = "none";
         thor.style.display = "none";
-
         if(hero === "ironman"){
-            ironman.style.display = "block";
-           
+            ironman.style.display = "block";        
         }else if(hero === "spiderman") {
-            spiderman.style.display = "block";
-          
+            spiderman.style.display = "block";    
         }else if(hero === "captainamerica"){
-            captainamerica.style.display = "block";
-           
+            captainamerica.style.display = "block";       
         }else if(hero === "hulk") {
             hulk.style.display = "block";
-           
-
         }else if(hero === "thor") {
             thor.style.display = "block"
-
         }
     }
-})
+});
 button.addEventListener("click" , () => {
      navigator.vibrate(500);
     // sound.currentTime = 0;
@@ -50,21 +43,15 @@ button.addEventListener("click" , () => {
         hulk.style.display = "none";
         thor.style.display = "none";
          if(hero === "ironman"){
-            ironman.style.display = "block";
-           
+            ironman.style.display = "block";         
         }else if(hero === "spiderman") {
-            spiderman.style.display = "block";
-          
+            spiderman.style.display = "block";      
         }else if(hero === "captainamerica"){
-            captainamerica.style.display = "block";
-           
+            captainamerica.style.display = "block";          
         }else if(hero === "hulk") {
             hulk.style.display = "block";
-           
-
         }else if(hero === "thor") {
             thor.style.display = "block"
 
         }
-
-})
+});
