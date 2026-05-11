@@ -12,8 +12,8 @@ input.addEventListener("keydown" , (a) => {
     if(a.key === "Enter") {
          let hero = input.value.toLowerCase();
         navigator.vibrate(500);
-        sound.currentTime = 0;
-        sound.play()
+        // sound.currentTime = 0;
+        // sound.play()
          ironman.style.display = "none";
         spiderman.style.display = "none";
         captainamerica.style.display = "none";
@@ -41,8 +41,8 @@ input.addEventListener("keydown" , (a) => {
 })
 button.addEventListener("click" , () => {
      navigator.vibrate(500);
-    sound.currentTime = 0;
-    sound.play()
+    // sound.currentTime = 0;
+    // sound.play()
     ironman.style.display = "none";
         spiderman.style.display = "none";
         captainamerica.style.display = "none";
