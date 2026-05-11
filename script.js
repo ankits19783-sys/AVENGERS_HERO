@@ -43,6 +43,7 @@ button.addEventListener("click" , () => {
      navigator.vibrate(500);
     // sound.currentTime = 0;
     // sound.play()
+     let hero = input.value.toLowerCase();
     ironman.style.display = "none";
         spiderman.style.display = "none";
         captainamerica.style.display = "none";
